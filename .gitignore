@@ -1,0 +1,43 @@
+HELP.md
+# Maven / Gradle
+/.mvn/
+target/
+/build/
+*.jar
+*.war
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+/.settings/
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Spring Boot specific
+/application.properties
+/application.yml
+
+# Logs
+/logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Other
+*.class
+*.jar.dSYM
+
+
+### VS Code ###
+.vscode/
