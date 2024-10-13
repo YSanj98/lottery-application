@@ -5,6 +5,9 @@ target/
 /build/
 *.jar
 *.war
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 # IDEs
 .idea/
@@ -14,7 +17,7 @@ target/
 *.classpath
 *.project
 /.settings/
-*.log
+
 
 # OS specific files
 .DS_Store
